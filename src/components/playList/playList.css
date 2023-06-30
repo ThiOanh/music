@@ -1,0 +1,98 @@
+.music-space{
+    display: flex;
+    min-width: 1000px;
+    padding: 20px;
+    margin: 50x 100px;
+    width: 1000px;
+  }
+  .music-list {
+    flex-grow: 1;
+    margin-right: 20px;
+    z-index: 0;
+    font-family: 'Raleway';
+    width: auto;
+    margin-left: 200px;
+  }
+  
+  .list-title {
+    font-size: 1.6rem;
+  }
+  
+  .list-sub{
+    color: gray;
+    margin-bottom: 16px;
+  }
+  
+  .play-list {
+  width: 700px;
+  }
+  
+  .play-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: white;
+    border-radius: 4px;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+
+  .play-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .play-block {
+    display: flex;
+    align-items: center;
+    width: 400px;
+  }
+  
+  .index {
+    margin-right: 12px;
+  }
+  
+  .thumbnail {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 12px;
+  }
+  
+  .play-icon{
+    margin-right: 12px;
+    color: gray;
+    opacity: .5;
+  }
+  
+  .music-name{
+  }
+  
+  .play-author{
+    color: gray;
+    margin-left: 20px;
+    width: 150px;
+  }
+  
+  .timer{
+    color: gray;
+    margin-left: 5px;
+  }
+  
+  .fa-heart{
+    color: rgb(253,29,29);
+  }
+  .icon-like{
+  
+  }
+  .music-playing {
+  }
+  
+  .text-strong {
+    font-weight: bold;
+  }
+
+  .un-heart {
+    color: black;
+  }
